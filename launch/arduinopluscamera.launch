@@ -1,0 +1,7 @@
+<launch>
+
+	<include file="$(find indus2021)/launch/arduino1.launch"/>
+
+	<include file="$(find common_camera_application)/launch/camera_preview.launch"/>
+
+</launch>

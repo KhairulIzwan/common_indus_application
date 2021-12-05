@@ -1,0 +1,8 @@
+<launch>
+
+	<!-- COMMON_CAMERA_APPLICATION {CAMERA_ROBOT} -->
+	<include file="$(find indus2021)/launch/arduino1.launch"/>
+	<include file="$(find indus2021)/launch/arduino2.launch"/>
+	<include file="$(find indus2021)/launch/arduino3.launch"/>
+
+</launch>
